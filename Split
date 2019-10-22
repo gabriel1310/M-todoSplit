@@ -1,0 +1,11 @@
+class Main {
+
+ public static void main(String[] args){
+    char[]letras = null;
+    String palavra = "yes  nos temos batatas"; //aqui temos a explicitação da frase;
+    String[] palavras = palavra.split(" "); //ocorrerá aqui a separação String por String. Através do espaço ocorre a separação das demais Strings;
+    System.out.println(palavras[0]); // aqui temos o resultado, com o String separado das demais;
+ }
+}
+  
+//Esse método Split pode ser utilizado para separar uma determinada String das demais.  
